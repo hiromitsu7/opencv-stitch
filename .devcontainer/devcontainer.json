@@ -1,0 +1,12 @@
+{
+    "name": "python-opencv",
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "python.pythonPath": "/usr/bin/python3"
+    },
+    "extensions": [
+        "ms-python.python"
+    ],
+    "workspaceMount": "source=/mnt/c/github/opencv-stitch/work,target=/workspace,type=bind,consistency=delegated",
+    "workspaceFolder": "/workspace"
+}
